@@ -1,0 +1,56 @@
+@import './scss/header';
+@import './scss/page__main';
+@import './scss/page__newlife';
+@import './scss/page__hotel';
+@import './scss/page__booktickets';
+@import './scss/expedia__slider';
+@import './scss/footer';
+
+*,
+*::before,
+*::after{
+   padding: 0;
+   margin: 0;
+   border: 0;
+   box-sizing: border-box;
+}
+
+a{
+   text-decoration: none;
+}
+ul,
+ol,
+li{
+   list-style:none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+   font-weight: inherit;
+   font-size: inherit;
+}
+html,
+body{
+   height: 100%;
+   line-height: 1;
+   font-size: 14px;
+   color: #252B42;
+   font-weight: 500;
+   background: #fafafa;
+   font-family: 'Open Sans Condensed';
+}
+.wrapper{
+   min-height: 100%;
+   overflow: hidden;
+   display: flex;
+   flex-direction: column;
+}
+._container{
+   max-width: 1290px;
+   padding: 0px 15px;
+   margin: 0px auto;
+   box-sizing: content-box;
+}
