@@ -63,12 +63,12 @@
     flex-direction: column;
  }
  .booktickets__column:nth-child(5) {
-    flex: 0 1 10%;
+    flex: 0 1 21.5%;
     display: flex;
     flex-direction: column;
  }
  .booktickets__column:nth-child(6) {
-    flex: 0 1 10%;
+    flex: 0 1 21.5%;
     display: flex;
     flex-direction: column;
  }
@@ -79,6 +79,7 @@
     padding: 0px 0px 0px 20px;
     justify-content: space-between;
     margin: 16px 0px 0px 0px;
+    text-align: start;
  }
  
  .personal-data__input {
@@ -132,13 +133,15 @@
     padding: 25px 0px 5px 0px;
  }
  .booktickets__guests{
-    display: grid;
+   display: grid;
     align-items: center;
+    grid-template-columns: repeat(4, 1fr);
+    
  }
  .booktickets__guests_title{
     padding: 0px 0px 10px 0px;
  }
- .booktickets__guests_row:not(:last-child){
+ .booktickets__guests_row{
     margin: 0px 45px 0px 0px;
  }
  .booktickets__submit {
@@ -183,7 +186,7 @@
        justify-content: center;   
     }
     .booktickets__column:nth-child(7){
-      margin: 16px 0px 0px 23px;
+      margin: 16px 0px 0px 0px;
     }
  }
  @media(max-width: 1020px){
@@ -201,7 +204,7 @@
     }
     .booktickets__column:nth-child(7){
        flex: 1 1 100%;
-       text-align: center;
+       text-align: start;
      }
      .booktickets__guests {
         justify-content: center;
@@ -212,12 +215,58 @@
        font-size: 35px;
     }
  }
- @media(max-width: 520px){
+ @media(max-width: 570px){
     .data__arrival_label,
     .data__departure_label,
     .location__city_label,
     .location__hotel_label,
     .personal-data__label{
        padding: 5px 0px 5px 0px;
+    }
+    .booktickets__column:nth-child(1),
+    .booktickets__column:nth-child(2),
+    .booktickets__column:nth-child(3),
+    .booktickets__column:nth-child(4),
+    .booktickets__column:nth-child(5),
+    .booktickets__column:nth-child(6),
+    .booktickets__column:nth-child(7){
+       flex: 0 0 100%;
+       padding: 0;
+       margin: 0;
+       max-width: 100%;
+    }
+    .booktickets__title{
+       font-size: 25px;
+    }
+    .booktickets__submit{
+       flex: 0 0 100%;
+    }
+    .booktickets__body{
+       margin: 0;
+       padding: 20px;
+    }
+ }
+ @media(max-width: 370px){
+   .booktickets__body{
+      margin: 0;
+      padding: 10px;
+   }
+   .booktickets__title{
+      font-size: 20px;
+   }
+   .booktickets__column:nth-child(1),
+    .booktickets__column:nth-child(2),
+    .booktickets__column:nth-child(3),
+    .booktickets__column:nth-child(4),
+    .booktickets__column:nth-child(5),
+    .booktickets__column:nth-child(6),
+    .booktickets__column:nth-child(7){
+       flex: 0 0 100%;
+       padding: 0;
+       margin: 0;
+    }
+    .booktickets__guests{
+       display: flex;
+       flex-wrap: wrap;
     }
  }

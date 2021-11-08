@@ -26,9 +26,14 @@
     .footer-list{
        display: flex;
        flex-direction: row;
+       flex-wrap: wrap;
     }
     .footer-list .menu__item:not(:last-child){
        margin: 0px 10px 0px 0px;
     }
  }
- 
+ @media(max-width: 370px){
+   .footer-list{
+   flex-direction: column;
+   }
+}
