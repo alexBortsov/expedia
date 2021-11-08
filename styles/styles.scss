@@ -6,6 +6,18 @@
 @import './scss/expedia__slider';
 @import './scss/footer';
 
+@mixin display($display: flex, $justify-content: center, $align-items: center){
+   display: -webkit-box;
+  display: -ms-$displaybox;
+  display: $display;
+  -webkit-box-pack: $justify-content;
+      -ms-flex-pack: $justify-content;
+          justify-content: $justify-content;
+  -webkit-box-align: $align-items;
+      -ms-flex-align: $align-items;
+          align-items: $align-items;
+}
+
 *,
 *::before,
 *::after{
