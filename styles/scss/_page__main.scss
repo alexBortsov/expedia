@@ -60,7 +60,11 @@
    line-height: 200%; 
    background: #16DCF0;
 }
-
+.main-block__button_link:hover{
+   background: -webkit-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+   background: -moz-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+   background: linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+}
  .main-block_image {
     position: absolute;
    width: 100%;

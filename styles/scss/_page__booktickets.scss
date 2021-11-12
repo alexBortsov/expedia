@@ -156,6 +156,11 @@
     line-height: 200%; 
     background: #16DCF0;
  }
+ .booktickets__submit:hover {
+   background: -webkit-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+   background: -moz-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+   background: linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
+ }
  .booktickets__button{
     margin: 40px 0px 0px 0px;
     display: flex;
@@ -216,7 +221,10 @@
     }
  }
  @media(max-width: 570px){
-    .data__arrival_label,
+   .booktickets{
+      min-height: 650px;
+   }
+   .data__arrival_label,
     .data__departure_label,
     .location__city_label,
     .location__hotel_label,
