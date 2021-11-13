@@ -59,6 +59,7 @@
    font-weight: 700;
    line-height: 200%; 
    background: #16DCF0;
+   font-family: 'Open Sans Condensed';
 }
 .main-block__button_link:hover{
    background: -webkit-linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
@@ -86,11 +87,6 @@
    }
 }
 @media(max-width: 768px){
-   
-   .main-block_image img{
-      opacity: 0.7;
-      
-   }
    .main-block__title {
    font-size: 100px;
    }

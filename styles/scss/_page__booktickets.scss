@@ -142,12 +142,12 @@
     padding: 0px 0px 10px 0px;
  }
  .booktickets__guests_row{
-    margin: 0px 45px 0px 0px;
+    margin: 0px 5% 0px 0px;
  }
- .option {
-   display: block;
-   margin-bottom: 8px;
-}
+//  .option {
+//    display: block;
+//    margin-bottom: 8px;
+// }
 
 .guests__label_checkbox {
    padding-left: 19.2px;
@@ -178,7 +178,8 @@
 
 .guests__input_checkbox:checked + .guests__input_span {
    background-color: #4A90E2;
-   background-image: url(../../img/book-a-tickets/check.svg);
+   background: #4A90E2 url(http://127.0.0.1:5500/expedia/img/book-a-tickets/check.svg);
+  
 }
 
 .guests__input_checkbox:focus + .guests__input_span {
@@ -315,6 +316,15 @@ input[type="radio"]{
     .personal-data__label{
        padding: 5px 0px 5px 0px;
     }
+    .booktickets__guests{
+       grid-template-columns: repeat(2, 1fr);
+    }
+    .booktickets__guests_title{
+       margin: 10px 0px 0px 0px;
+    }
+    .booktickets__guests_row{
+       padding: 0px 0px 10px 0px;
+    }
     .booktickets__column:nth-child(1),
     .booktickets__column:nth-child(2),
     .booktickets__column:nth-child(3),
@@ -327,6 +337,7 @@ input[type="radio"]{
        margin: 0;
        max-width: 100%;
     }
+
     .booktickets__title{
        font-size: 25px;
     }
@@ -351,14 +362,14 @@ input[type="radio"]{
     .booktickets__column:nth-child(3),
     .booktickets__column:nth-child(4),
     .booktickets__column:nth-child(5),
-    .booktickets__column:nth-child(6),
-    .booktickets__column:nth-child(7){
+    .booktickets__column:nth-child(6)
+    {
        flex: 0 0 100%;
        padding: 0;
        margin: 0;
     }
-    .booktickets__guests{
-       display: flex;
-       flex-wrap: wrap;
-    }
+   //  .booktickets__guests{
+   //     display: flex;
+   //     flex-wrap: wrap;
+   //  }
  }
