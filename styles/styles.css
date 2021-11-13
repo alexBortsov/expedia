@@ -559,7 +559,7 @@ header::before {
   z-index: 5;
   max-width: 312px;
   height: 125px;
-  padding: 5px;
+  padding: 5px 15px 5px 15px;
   -webkit-transition: all 3s ease 0s;
   transition: all 3s ease 0s;
 }
@@ -727,13 +727,13 @@ header::before {
 
 @media (max-width: 1600px) {
   .hotel__title {
-    font-size: 80px;
+    font-size: 100px;
   }
   .hotel__text {
-    font-size: 12px;
+    font-size: 16px;
   }
   .hotel__subtitle {
-    font-size: 35px;
+    font-size: 48px;
   }
   .hotel__body > *:not(:last-child) {
     margin: 0px 0px 10px 0px;
@@ -938,11 +938,10 @@ header::before {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 0px 0px 0px 20px;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  margin: 16px 0px 0px 0px;
+  margin: 28px 0px 0px 0px;
   text-align: start;
 }
 
@@ -1008,7 +1007,7 @@ header::before {
 }
 
 .booktickets__guests_title {
-  padding: 0px 0px 10px 0px;
+  padding: 0px 0px 19px 0px;
 }
 
 .booktickets__guests_row {
@@ -1234,7 +1233,6 @@ input[type="radio"]:focus + .guests__label:before {
             flex: 0 0 100%;
   }
   .booktickets__body {
-    margin: 0;
     padding: 20px;
   }
 }
@@ -1258,6 +1256,9 @@ input[type="radio"]:focus + .guests__label:before {
             flex: 0 0 100%;
     padding: 0;
     margin: 0;
+  }
+  .guests__label_checkbox {
+    padding-left: 26.2px;
   }
 }
 
@@ -1499,7 +1500,7 @@ body {
           flex-direction: column;
 }
 
-._container {
+.container {
   max-width: 1290px;
   padding: 0px 15px;
   margin: 0px auto;
