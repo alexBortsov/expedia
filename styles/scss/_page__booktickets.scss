@@ -300,6 +300,12 @@ input[type="radio"]{
     .booktickets__title{
        font-size: 35px;
     }
+    .guests__label_checkbox {
+      padding-left: 37.2px;
+   }
+    .guests__input_span{
+       margin-left: -35px;
+    }
  }
  @media(max-width: 570px){
    .booktickets{
@@ -364,6 +370,6 @@ input[type="radio"]{
        margin: 0;
     }
       .guests__label_checkbox {
-         padding-left: 26.2px;
+         padding-left: 38.2px;
     }
  }
