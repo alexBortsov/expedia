@@ -57,7 +57,7 @@
    display: flex;
     flex-direction: row;
    align-items: center;
-    padding: 20px 0px 0px 0px;
+    padding: 0px 0px 16px 0px;
  }
  .menu__item:not(:last-child) {
     margin: 0px 50px 0px 0px;
@@ -157,7 +157,7 @@
     .header__menu {
      position: fixed;
        top: -50%;
-       right: -12%;
+       left: -3%;
        width: 35%;
        background-color: transparent;
        z-index: 6;
@@ -169,7 +169,7 @@
     }
     .header__body_logo{
        position: absolute;
-       left: 0;
+       left: 5%;
        z-index: 8;
     }
     .menu__list{
@@ -189,8 +189,8 @@
        width: 30px;
        height: 20px;
        z-index: 10;
-       top: 33%;
-       right: 5%;
+       top: 40%;
+       left: 3%;
        
     }
     .burger-menu span{
@@ -229,11 +229,11 @@
    }
  }
  @media(max-width: 490px){
-   .burger-menu{
-      top: 14px;
-   }
-   .header__body_logo{
-      left: -26px;
-      top: 14px;
+  
+   .header__search{
+      flex: 1 1 100%;
+      margin-top: 30px;
+      align-self: flex-end;
+
    }
  }

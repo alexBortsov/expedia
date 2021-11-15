@@ -143,7 +143,9 @@
  .booktickets__guests_row{
     margin: 0px 5% 0px 0px;
  }
-
+ .booktickets__guests_row:nth-child(4){
+    padding: 0px 0px 5px 0px;
+ }
 
 .guests__label_checkbox {
    padding-left: 19.2px;
@@ -160,7 +162,7 @@
 
 .guests__input_span{
    position: absolute;
-   margin-top: -3px;
+   margin-top: -1px;
    margin-left: -23px;
    width: 15px;
    height: 15px;
@@ -243,7 +245,7 @@ input[type="radio"]{
    background: linear-gradient(45deg, rgb(22, 220, 240), rgb(28, 201, 56));
  }
  .booktickets__button{
-    margin: 40px 0px 0px 0px;
+    margin: 40px 8% 0px 0px;
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
