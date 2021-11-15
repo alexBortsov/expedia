@@ -229,11 +229,18 @@
    }
  }
  @media(max-width: 490px){
-  
-   .header__search{
-      flex: 1 1 100%;
-      margin-top: 30px;
-      align-self: flex-end;
-
+  .header__container{
+     justify-content: space-between;
+  }
+  .header__search{
+     flex: 1 1 25%;
+     
+  }
+  .search__form{
+     width: 100%;
+     justify-content: flex-end;
+  } 
+  .search__input{
+     width: 38%; 
    }
  }

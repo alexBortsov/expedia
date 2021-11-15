@@ -76,7 +76,6 @@
 .hotel__image img{
    position: absolute;
    width: 100%;
-   
    top: 0;
    left: 0;
    object-fit: cover;
@@ -114,6 +113,10 @@
    }
    .hotel__text{
       font-size: 16px;
+      text-align: center;
+   }
+   .hotel__text> br{
+      display: none;
    }
    .hotel__subtitle{
       font-size: 25px;
@@ -126,6 +129,8 @@
    
 }
 @media (max-width: 670px) {
+   .hotel__body {
+      padding: 0px 50px;}
    .hotel__button_link{
       padding: 0px 8px;
       max-width: 98px;
@@ -141,6 +146,6 @@
       font-size: 12px;
    }
    .hotel__body> *:not(:last-child){
-      margin: 0px 0px 5px 0px;
+      margin: 0px 0px 3px 0px;
    } 
 }
