@@ -17,17 +17,9 @@
    top: 0;
    left: 0;
    z-index: 5;
-   transition: all 5s linear 0s;
 }
 
-.hotel__body:hover{
-   width: 100%;
-   align-items: center;
-   justify-content: center;
-   padding: 150px 0px 152px 0px;
-   transition: all 4s ease 0s;
-   
-}
+
 .hotel__title {
    font-size: 100px;
    font-weight: 700;
@@ -132,13 +124,28 @@
 }
 @media (max-width: 670px) {
    .hotel__body {
-      padding: 0px 50px;}
+      padding: 0px 13px;}
    .hotel__button_link{
       padding: 0px 8px;
-      max-width: 98px;
-      min-height: 23px;
+      max-width: 89px;
+      min-height: 11px;
    }
    .hotel__title {
+      font-size: 25px;
+   }
+   .hotel__text{
+      font-size: 12px;
+   }
+   .hotel__subtitle{
+      font-size: 18px;
+   }
+   .hotel__body> *:not(:last-child){
+      margin: 0px 0px 3px 0px;
+   } 
+}
+
+@media (max-width: 370px) {
+    .hotel__title {
       font-size: 20px;
    }
    .hotel__text{
@@ -147,7 +154,4 @@
    .hotel__subtitle{
       font-size: 12px;
    }
-   .hotel__body> *:not(:last-child){
-      margin: 0px 0px 3px 0px;
-   } 
 }
