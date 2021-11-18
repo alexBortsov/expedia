@@ -341,7 +341,8 @@ header::before {
   font-weight: 700;
   line-height: 200%;
   background: #16DCF0;
-  font-family: "Open Sans Condensed";
+  font-family: "Open Sans";
+  color: #fff;
 }
 
 .main-block__button_link:hover {
@@ -588,6 +589,8 @@ header::before {
   line-height: 200%;
   background: #16DCF0;
   max-width: 150px;
+  color: #fff;
+  font-family: "Open Sans";
 }
 
 .hotel__button_link:hover {
@@ -870,7 +873,7 @@ header::before {
 
 .guests__input_checkbox:checked + .guests__input_span {
   background-color: #4A90E2;
-  background: #4A90E2 url(./../../img/book-a-tickets/check.svg);
+  background: #4A90E2 url(../../img/book-a-tickets/check.svg);
 }
 
 .guests__input_checkbox:focus + .guests__input_span {
@@ -917,6 +920,8 @@ input[type=radio]:focus + .guests__label:before {
   font-weight: 700;
   line-height: 200%;
   background: #16DCF0;
+  color: #fff;
+  font-family: "Open Sans";
 }
 
 .booktickets__submit:hover {
