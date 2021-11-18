@@ -873,7 +873,7 @@ header::before {
 
 .guests__input_checkbox:checked + .guests__input_span {
   background-color: #4A90E2;
-  background: #4A90E2 url(../../img/book-a-tickets/check.svg);
+  background: #4A90E2 url(https://alexbortsov.github.io/expedia/img/book-a-tickets/check.svg);
 }
 
 .guests__input_checkbox:focus + .guests__input_span {
