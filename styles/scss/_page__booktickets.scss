@@ -175,9 +175,13 @@
 }
 
 .guests__input_checkbox:checked + .guests__input_span {
+<<<<<<< HEAD
    background-color: #4A90E2;
    background: #4A90E2 url(https://alexbortsov.github.io/expedia/img/book-a-tickets/check.svg);
   
+=======
+   background: #4A90E2 url(https://alexbortsov.github.io/expedia/img/book-a-tickets/check.svg);
+>>>>>>> f95056348f3d173ca7761250013e4e4060dfc5cc
 }
 
 .guests__input_checkbox:focus + .guests__input_span {
